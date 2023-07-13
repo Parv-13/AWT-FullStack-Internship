@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="pp.css">
+</head>
+
+<body>
+    <div  class="input_container">
+
+        <h1> Feedback Form</h1>
+        <form name="formvalidation" id="formvalidation" action="back.html">
+            <!-- form fields -->
+            <b><div class="input-row">
+                <input type="text" style="border-color: black;" name="name" placeholder="Name*" required>
+            </div>
+            <div class="input-row">
+                <input type="email" style="border-color: black;" name="email" placeholder="Email*" required>
+            </div>
+            <div class="input-row">
+                <input type="number"  style="border-color: black;"  name="phone" placeholder="Phone* " required>
+            </div>
+            <div class="input-row">
+                <input type="text" style="border-color: black;" name="suject" placeholder="Subject* " required>
+            </div>
+            <div class="input-row">
+                <textarea placeholder="Feedback*" style="border-color: black;"  name="formmessage" required></textarea>
+            </div></b>
+            
+            <div class="text-center">
+            <center><input type="submit" value="submit"></center>
+            </div>
+        </form>
+
+    </div>
+    <!-- <img src="fdbk.jpg" alt="" width="500" height="500"> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="pp.js"></script>
+    
+</body>
+
+</html>
